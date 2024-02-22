@@ -1,7 +1,7 @@
 extends Node2D
 
 # Variable for the speed of the movement
-var speed = 150
+@export var speed = 150
 
 # The _ready function is called when the node is loaded into the scene
 func _ready():
